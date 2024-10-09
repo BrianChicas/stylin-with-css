@@ -6,10 +6,17 @@
    <meta name="robots" content="noindex, nofollow">
    <title>Stylin' with CSS by Brian Chicas</title>
    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inknut+Antiqua&display=swap');
         html{
         background-color:#ccc;
         }
-
+        h1.page-header{
+        font-family:'Inknut Antiqua',serif;
+        width:80%;
+        margin:auto;
+        text-align:center;
+        text-shadow: 4px 4px 4px #aaa;
+        }
 
         body {
         font-family:Arial,sans-serif;
@@ -56,7 +63,7 @@
  </head>
  <body>
    <header>
-    <h1>Stylin' with CSS by Brian Chicas</h1>
+    <h1 class="page-header">Stylin with CSS by Brian Chicas</h1>
     <nav>
         <ul>
             <li><a href="elements.html" target="_blank">HTML Elements</a></li>
@@ -84,7 +91,7 @@
        </ol>
    </div>
        <p><img src="https://picsum.photos/200/300" alt="random pic"></p>
-       <p>Pictures provided by<a href="https://lorempicsum.photos" target="_blank">Lorem Picsum</a></p>
+       <p>Pictures provided by <a href="https://lorempicsum.photos" target="_blank">Lorem Picsum</a></p>
 
 
    <div>This is text inside a div. <span style="background-color: yellow;">This is text inside a span</span></div>
